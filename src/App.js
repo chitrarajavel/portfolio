@@ -1,14 +1,7 @@
 import './App.css';
 
 function App() {
-    return (
-        <div className="App">
-            <div className="header">
-                <div>Chitra R.</div>
-                <div>Skills</div>
-            </div>
-        </div>
-    );
+    return <div className="App"></div>;
 }
 
 export default App;
