@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 const Projects = () => {
     return (
         <div>
-            <P>Projetcs Page</P>
+            <p className="Page-Header">Projetcs Page</p>
         </div>
     );
 };

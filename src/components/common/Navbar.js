@@ -1,19 +1,27 @@
 import '../../styles/Navbar.css';
 // import React, {useState, useEffect} from 'react';
-// import ReactDOM from 'react-dom/client';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <nav className="Navbar">
             <div className="NavBar-Left-Container">
-                <div className="NavBar-HomePage">CR Porfolio </div>
+                <div className="NavBar-HomePage">Chitra R.</div>
             </div>
             <div className="NavBar-Right-Container">
                 <ul>
-                    <li>Skills</li>
-                    <li>Courses</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li>
+                        <Link to="/skills">Skills</Link>
+                    </li>
+                    <li>
+                        <Link to="/courses">Courses</Link>
+                    </li>
+                    <li>
+                        <Link to="/projects">Projects</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
                 </ul>
             </div>
         </nav>

@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 const Contact = () => {
     return (
         <div>
-            <P>Contact Page</P>
+            <p className="Page-Header">Contact Page</p>
         </div>
     );
 };

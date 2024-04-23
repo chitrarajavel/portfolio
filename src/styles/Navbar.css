@@ -18,6 +18,7 @@ body {
     padding: 0 1rem;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
+    top: 0;
 }
 
 .Navbar ul {
@@ -27,6 +28,10 @@ body {
     display: flex;
     gap: 1rem;
     font-size: 1rem;
+}
+
+.Navbar li {
+    margin-top: 1rem;
 }
 
 .Navbar a {
@@ -39,6 +44,7 @@ body {
 
 .NavBar-HomePage {
     font-size: 1.5rem;
+    margin-top: 1rem;
     text-decoration: none;
 }
 
