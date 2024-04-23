@@ -1,7 +1,12 @@
-import '../styles/App.css';
+import './App.css';
 import React, {useState, useEffect} from 'react';
+import Navbar from './components/common/Navbar';
 
 const App = () => {
-    return <></>;
+    return (
+        <div>
+            <Navbar />;
+        </div>
+    );
 };
 export default App;
