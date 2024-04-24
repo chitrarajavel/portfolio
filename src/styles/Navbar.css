@@ -8,15 +8,13 @@ body {
 }
 
 .Navbar {
-    background-color: rgb(29, 39, 49);
-    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: black;
     width: 100vw;
-    gap: 2rem;
-    padding: 0 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    gap: 1rem;
+    /* padding: 0 0.5rem; */
     position: absolute;
     top: 0;
 }
@@ -31,7 +29,7 @@ body {
 }
 
 .Navbar li {
-    margin-top: 1rem;
+    /* margin-top: 0.3rem; */
 }
 
 .Navbar a {
@@ -39,18 +37,28 @@ body {
     text-decoration: none;
     height: 100%;
     display: flex;
-    padding: 0.5rem;
+    /* padding: 0.3rem; */
 }
 
 .NavBar-HomePage {
-    font-size: 1.5rem;
-    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    /* margin-top: 0.3rem; */
     text-decoration: none;
 }
 
-.Navbar li:hover {
-    color: rgb(235, 191, 13);
+.NavBar-HomePage:hover {
+    color: #ffffff;
     cursor: pointer;
+    text-shadow: 0 0 1cap #fff, 0 0 1px #fff, 0 0 3px #ec4d37, 0 0 5px #ec4d37,
+        0 0 10px #ec4d37, 0 0 20px #ec4d37, 0 0 30px #ec4d37;
+}
+
+.Navbar li:hover {
+    color: #ffffff;
+    cursor: pointer;
+    text-shadow: 0 0 1cap #fff, 0 0 1px #fff, 0 0 3px #ec4d37, 0 0 5px #ec4d37,
+        0 0 10px #ec4d37, 0 0 20px #ec4d37, 0 0 30px #ec4d37;
 }
 
 .NavBar-Left-Container,
@@ -59,4 +67,5 @@ body {
     flex-direction: row;
     align-items: center;
     margin-right: 25px;
+    margin-left: 25px;
 }

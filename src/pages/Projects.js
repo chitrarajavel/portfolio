@@ -3,8 +3,8 @@ import React, {useState, useEffect} from 'react';
 
 const Projects = () => {
     return (
-        <div>
-            <p className="Page-Header">Projetcs Page</p>
+        <div className="Projects page">
+            <p>Projects Page</p>
         </div>
     );
 };
